@@ -168,7 +168,7 @@ The Excel dashboard includes:
 ### Dashboard Preview
 
 ```
-![Excel Dashboard](07_images/Excel_Dashboard.png)
+(07_images/Excel_Dashboard.png)
 ```
 
 ---
@@ -187,7 +187,7 @@ The Power BI dashboard includes:
 ### Dashboard Preview
 
 ```
-![Power BI Dashboard](07_images/PowerBI_Dashboard.png)
+(07_images/PowerBI_Dashboard.png)
 ```
 
 ---
