@@ -147,8 +147,7 @@ The Excel Dashboard provides interactive analysis using Pivot Tables, Pivot Char
 - Interactive Filters
 
 ## Dashboard Preview
-
-![Excel Dashboard](07_images/Excel dashboard.png)
+07_images/Excel dashboard.png
 
 ---
 
