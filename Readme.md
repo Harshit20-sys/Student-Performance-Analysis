@@ -165,9 +165,10 @@ The Excel dashboard includes:
 - Parental Education Analysis
 - Interactive Slicers
 
-## Dashboard Preview
+### Dashboard Preview
 
-![Excel Dashboard](07_images/Excel dashboard.png)
+```
+![Excel Dashboard](07_images/Excel_Dashboard.png)
 ```
 
 ---
@@ -183,9 +184,10 @@ The Power BI dashboard includes:
 - Gender Distribution
 - Interactive Filters (Slicers)
 
-## Dashboard Preview
+### Dashboard Preview
 
-![Power BI Dashboard](07_images/Powerbi dashboard.png)
+```
+![Power BI Dashboard](07_images/PowerBI_Dashboard.png)
 ```
 
 ---
