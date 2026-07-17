@@ -8,78 +8,60 @@ A complete End-to-End Data Analyst project developed using **PostgreSQL, SQL, Py
 
 The objective of this project is to analyze student performance data and answer important academic questions such as:
 
-- Does parental education affect student performance?
-- Does completing a test preparation course improve scores?
-- How do male and female students perform?
+- Which factors affect student performance?
+- Does test preparation improve marks?
+- Does parental education influence scores?
 - Which students are academically at risk?
-- How can school management use data for better academic decisions?
+- How can dashboards help school management make better decisions?
 
 ---
 
 # 🛠 Tech Stack
 
-- PostgreSQL
-- Advanced SQL
-- Python
-- Pandas
-- Matplotlib
-- Advanced Excel
-- Power BI
-- VS Code
-- pgAdmin
+| Tool | Purpose |
+|------|---------|
+| PostgreSQL | Database |
+| SQL | Data Analysis |
+| Python | Data Processing & Visualization |
+| Pandas | Data Manipulation |
+| Matplotlib | Charts |
+| Advanced Excel | Interactive Dashboard |
+| Power BI | Business Intelligence Dashboard |
+| VS Code | Development |
+| pgAdmin | Database Management |
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 Student Performance Analysis
 │
 ├── 01_data
-│   └── StudentsPerformance.xlsx
 │
 ├── 02_sql
-│   ├── 01_create_table.sql
-│   ├── 02_data_exploration.sql
-│   ├── 03_factor_analysis.sql
-│   └── 04_at_risk_analysis.sql
 │
 ├── 03_python
-│   ├── 01_database_connection.py
-│   └── 02_visualization.py
 │
 ├── 04_excel
-│   └── Student_Performance_Dashboard.xlsx
 │
 ├── 05_powerbi
-│   └── Student_Performance_Dashboard.pbix
 │
 ├── 06_reports
-│   └── Principal_Report.docx
 │
 ├── 07_images
-│   ├── Excel_Dashboard.png
-│   ├── PowerBI_Dashboard.png
-│   ├── chart1_gender_performance.png
-│   ├── chart2_test_preparation.png
-│   ├── chart3_parental_education_boxplot.png
-│   ├── chart4_total_score_distribution.png
-│   ├── chart5_math_vs_reading.png
-│   └── chart6_correlation_heatmap.png
 │
 └── README.md
 ```
 
 ---
 
-# 📁 Dataset Information
+# 📊 Dataset Information
 
-The dataset contains **1000 student records**.
-
-Features include:
+The dataset contains **1000 student records** with the following attributes:
 
 - Gender
-- Race/Ethnicity
+- Race / Ethnicity
 - Parental Level of Education
 - Lunch Type
 - Test Preparation Course
@@ -89,49 +71,46 @@ Features include:
 
 ---
 
-# 🗄 Database Design
+# 🗄 Database
 
-Database
+Database Name
 
-```
+```sql
 student_performance_analysis
 ```
 
 Table
 
-```
+```sql
 student_performance
 ```
 
 ---
 
-# SQL Analysis
+# 📝 SQL Analysis
 
-The project includes SQL analysis for:
+SQL was used for:
 
 - Data Exploration
-- Missing Value Check
-- Data Type Verification
 - Unique Value Analysis
-- Factor Analysis
-- Gender Performance
+- Summary Statistics
+- Gender Performance Analysis
 - Test Preparation Analysis
 - Parental Education Analysis
-- At-Risk Student Identification
+- At-Risk Student Analysis
 
 ---
 
-# Python Analysis
+# 🐍 Python Analysis
 
-Python was used for:
+Python connects directly with PostgreSQL and performs:
 
-- PostgreSQL Database Connection
+- Database Connection
 - Data Retrieval
 - Data Processing
-- Visualization
-- Statistical Charts
+- Data Visualization
 
-Libraries Used
+### Libraries Used
 
 - pandas
 - matplotlib
@@ -139,9 +118,9 @@ Libraries Used
 
 ---
 
-# Visualizations
+# 📈 Python Visualizations
 
-The following visualizations were created:
+Generated charts:
 
 - Grouped Bar Chart
 - Bar Chart
@@ -152,117 +131,100 @@ The following visualizations were created:
 
 ---
 
-# Advanced Excel Dashboard
+# 📊 Advanced Excel Dashboard
 
-The Excel dashboard includes:
+The Excel Dashboard provides interactive analysis using Pivot Tables, Pivot Charts and Slicers.
 
-- Total Students KPI
+### Dashboard Features
+
+- Total Students
 - Average Math Score
 - Average Reading Score
 - Average Writing Score
 - Gender Performance
 - Test Preparation Analysis
 - Parental Education Analysis
-- Interactive Slicers
+- Interactive Filters
 
-### Dashboard Preview
+## Dashboard Preview
 
-```
 ![Excel Dashboard](07_images/Excel_Dashboard.png)
-```
 
 ---
 
-# Power BI Dashboard
+# 📈 Power BI Dashboard
 
-The Power BI dashboard includes:
+The Power BI dashboard provides dynamic business intelligence reports.
+
+### Dashboard Features
 
 - KPI Cards
-- Gender Performance Analysis
+- Gender Performance
 - Test Preparation Analysis
 - Parental Education Analysis
 - Gender Distribution
-- Interactive Filters (Slicers)
+- Interactive Slicers
 
-### Dashboard Preview
+## Dashboard Preview
 
-```
 ![Power BI Dashboard](07_images/PowerBI_Dashboard.png)
-```
 
 ---
 
-# At-Risk Student Analysis
+# 📄 Principal Report
 
-Students scoring below **50** in one or more subjects were identified as academically at risk.
-
-This analysis helps school management:
-
-- Identify struggling students
-- Provide additional academic support
-- Improve overall student performance
-
----
-
-# Principal Report
-
-A detailed Principal Report is included covering:
+A complete Principal Report is included with:
 
 - Project Overview
 - Dataset Summary
-- Findings
-- Insights
+- Key Findings
 - Recommendations
 - Conclusion
 
 Location
 
-```
+```text
 06_reports/Principal_Report.docx
 ```
 
 ---
 
-# Key Insights
+# 💡 Key Insights
 
-- Students completing the test preparation course generally performed better.
-- Higher parental education levels were associated with better average scores.
-- Reading and writing scores showed a strong relationship.
-- Gender-wise performance varied across subjects.
-- At-risk students were successfully identified for academic intervention.
+- Students completing the test preparation course generally achieved higher scores.
+- Reading and Writing scores have a strong positive relationship.
+- Students from higher parental education backgrounds performed better on average.
+- At-risk students were successfully identified using score analysis.
+- Interactive dashboards simplify academic performance monitoring.
 
 ---
 
-# Learning Outcomes
+# 🎯 Learning Outcomes
 
-Through this project I gained hands-on experience in:
+This project demonstrates practical experience in:
 
 - PostgreSQL
 - Advanced SQL
-- Python
+- Python Programming
 - Data Cleaning
 - Data Visualization
-- Statistical Analysis
-- Advanced Excel
-- Power BI Dashboard Development
-- Business Reporting
+- Dashboard Development
+- Business Intelligence
 - Data Storytelling
 
 ---
 
-# Future Improvements
+# 🚀 Future Enhancements
 
-- Predict student performance using Machine Learning.
-- Build an interactive web dashboard.
-- Add automated reporting.
-- Perform trend analysis on larger educational datasets.
+- Machine Learning based Score Prediction
+- Web Dashboard
+- Automated Reporting
+- Larger Educational Dataset Analysis
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 **Harshit Singh**
 
-Data Analyst Project
-
-Developed using PostgreSQL, SQL, Python, Advanced Excel, and Power BI.
+End-to-End Data Analyst Project using PostgreSQL, SQL, Python, Advanced Excel and Power BI.
