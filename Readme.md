@@ -146,8 +146,9 @@ The Excel Dashboard provides interactive analysis using Pivot Tables, Pivot Char
 - Parental Education Analysis
 - Interactive Filters
 
-## Dashboard Preview
-07_images/Excel dashboard.png
+## Advanced Excel Dashboard
+
+![Excel Dashboard](./07_images/Excel%20dashboard.png)
 
 ---
 
@@ -164,9 +165,9 @@ The Power BI dashboard provides dynamic business intelligence reports.
 - Gender Distribution
 - Interactive Slicers
 
-## Dashboard Preview
+## Power BI Dashboard
 
-![Power BI Dashboard](07_images/Powerbi dashboard.png)
+![Power BI Dashboard](./07_images/Powerbi%20dashboard.png)
 
 ---
 
