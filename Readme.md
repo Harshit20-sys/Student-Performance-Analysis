@@ -148,7 +148,7 @@ The Excel Dashboard provides interactive analysis using Pivot Tables, Pivot Char
 
 ## Dashboard Preview
 
-![Excel Dashboard](07_images/Excel_Dashboard.png)
+![Excel Dashboard](07_images/Excel dashboard.png)
 
 ---
 
@@ -167,7 +167,7 @@ The Power BI dashboard provides dynamic business intelligence reports.
 
 ## Dashboard Preview
 
-![Power BI Dashboard](07_images/PowerBI_Dashboard.png)
+![Power BI Dashboard](07_images/Powerbi dashboard.png)
 
 ---
 
